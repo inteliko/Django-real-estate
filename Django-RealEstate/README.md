@@ -21,7 +21,7 @@ A full featured real estate website. that let user find properties in the prefer
 1. **Clone the project**
 
 ```sh
-git clone https://github.com/nimadorostkar/Django-RealEstate.git
+git clone https://github.com/inteliko/Django-real-estate.git
 ```
 
 2.  **Make sure you are in *Django-RealEstate* folder**
@@ -63,12 +63,4 @@ python manage.py createsuperuser
 
 
 
-### Screenshots
 
-![Home](https://github.com/nimadorostkar/Django-RealEstate/blob/master/screenshots/1.png)
-
-![Items](https://github.com/nimadorostkar/Django-RealEstate/blob/master/screenshots/2.png)
-
-![Admin](https://github.com/nimadorostkar/Django-RealEstate/blob/master/screenshots/3.png)
-
-![Admin](https://github.com/nimadorostkar/Django-RealEstate/blob/master/screenshots/4.png)
