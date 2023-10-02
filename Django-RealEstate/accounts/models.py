@@ -2,7 +2,7 @@ from django.db import models
 from django.conf import settings
 from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.base_user import BaseUserManager
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.urls import reverse
 
 
@@ -41,7 +41,7 @@ class CustomUserManager(BaseUserManager):
         return self.create_user(email, password, **extra_fields)
 
 
-    
+
 class CustomUser(AbstractUser):
     first_name = models.CharField(max_length=255, null=True,
                                   verbose_name=_("Firstname"))
@@ -92,5 +92,5 @@ class Realtor(models.Model):
         verbose_name = _("Realtor")
         verbose_name_plural = _("Realtors")
 
-        
-        
+
+

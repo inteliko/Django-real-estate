@@ -1,7 +1,7 @@
 from django.db import models
 from datetime import datetime
 from django.conf import settings
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 
@@ -33,7 +33,7 @@ class Contact(models.Model):
     get_email.short_description = _("Email")
 
 
-    
+
 class ChatMessage(models.Model):
     contact = models.ForeignKey(Contact, on_delete=models.PROTECT,
                                 verbose_name=_("Contact listing"))
