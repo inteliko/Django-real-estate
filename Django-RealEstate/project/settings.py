@@ -186,7 +186,7 @@ LOGIN_REDIRECT_URL = 'index'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-     'allauth.account.middleware.AccountMiddleware',
+     #'allauth.account.middleware.AccountMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
