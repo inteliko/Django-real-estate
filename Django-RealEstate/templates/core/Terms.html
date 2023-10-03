@@ -1,0 +1,122 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% load static %}
+
+
+{% block content %}
+
+{% include 'core/partials/_showcase_section.html' %}
+
+
+<!-- Breadcrumb -->
+<section id="bc" class="mt-3">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="{% url 'index' %}">
+            <i class="fas fa-home"></i>{{ _("Home") }} </a>
+        </li>
+        <li class="breadcrumb-item active">{{ _("Policy") }}</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<section id="about" class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        
+
+          <div class="container mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Terms and Conditions
+
+                    </h5>
+                    <p class="card-text">
+                      Welcome to [banglavillage.net] ("we", "our", or "the Company"). These Terms and Conditions govern your use of our website and services. By using our website, you agree to be bound by these terms. Please read them carefully before proceeding.  </p>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">1. Introduction</h5>
+                  <p class="card-text">
+                    These Terms and Conditions apply to all users of our website, whether they are visitors, customers, or contributors of content. By accessing and using this website, you acknowledge that you have read, understood, and agree to comply with these terms. If you do not agree with these terms, please do not use our website.   </p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">2. Services Provided</h5>
+                <p class="card-text">
+                  Our website provides real estate services including but not limited to:
+
+                  Property listings for sale, rent, or purchase.
+                  Property search functionality.
+                  Contact forms for inquiries and requests.
+                  Blog posts and other informational content.           </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">3. User Responsibilities</h5>
+              <p class="card-text">
+                As a user of our website, you agree to:
+
+                Provide accurate and complete information.
+                Use the website only for lawful purposes and in compliance with applicable laws and regulations.
+                Not engage in any activity that may harm, disrupt, or compromise the integrity or security of the website.
+                Not attempt to gain unauthorized access to any part of the website. </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">4. Intellectual Property</h5>
+              <p class="card-text">
+                All content on this website, including text, images, logos, and design, is protected by intellectual property laws. You may not reproduce, distribute, or use any content without our explicit permission.   </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">5. Privacy</h5>
+              <p class="card-text">
+                We take your privacy seriously. Please refer to our <a href="{% url 'privacy' %}" >Privacy Policy</a> for details on how we collect, use, and disclose your personal information.
+              </div>
+
+            <div class="card-body">
+              <h5 class="card-title">6. Listings and Property Information</h5>
+              <p class="card-text">
+                While we strive to provide accurate and up-to-date information, we do not guarantee the accuracy, completeness, or reliability of any property listing or information provided on our website. Users are encouraged to conduct their own due diligence.            <div class="card-body">
+              <h5 class="card-title">7. Limitation of Liability</h5>
+              <p class="card-text">
+                To the maximum extent permitted by law, we shall not be liable for any direct, indirect, special, incidental, or consequential damages arising out of or in any way connected with the use of our website.  </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">8. Modification of Terms</h5>
+              <p class="card-text">
+                We reserve the right to update, modify, or replace these Terms and Conditions at any time without notice. It is your responsibility to review these terms periodically. </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">9. Contact Us</h5>
+              <p class="card-text">
+                If you have any questions or concerns regarding these Terms and Conditions, please contact us at [support@banglavillage.net]. </p>
+            </div>
+
+            
+          </div>
+
+      </div>
+ 
+
+        <hr>
+
+       
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,132 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% load static %}
+
+
+{% block content %}
+
+{% include 'core/partials/_showcase_section.html' %}
+
+
+<!-- Breadcrumb -->
+<section id="bc" class="mt-3">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="{% url 'index' %}">
+            <i class="fas fa-home"></i>{{ _("Home") }} </a>
+        </li>
+        <li class="breadcrumb-item active">{{ _("Policy") }}</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<section id="about" class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        
+
+          <div class="container mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Privacy Policy
+
+                    </h5>
+                    <p class="card-text">
+                      This Privacy Policy outlines how [banglavillage.net] ("we", "our", or "the Company") collects, uses, and protects your personal information when you use our website or services. By using our website, you consent to the practices described in this policy.    </p>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">1. Information We Collect <br> Personal Information: </h5>
+                  <p class="card-text">
+                    Name
+                    Email Address
+                    Phone Number
+                    Location (City, State, Zip Code)
+                    Any additional information voluntarily provided by you in inquiries or forms.      </p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Usage Data:</h5>
+                <p class="card-text">
+                  We may collect information about how you interact with our website, including:    IP address
+                  Browser type
+                  Pages viewed
+                  Time spent on pages
+                  Click-through rates
+                  Referral source             </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">2. How We Use Your Information</h5>
+              <p class="card-text">
+                We use the information collected for the following purposes:
+
+                To provide and maintain our services.
+                To notify you about changes to our services and address inquiries.
+                To send newsletters, promotional materials, or other information about our services (you may opt out at any time).
+                To improve our website and services based on usage patterns and feedback.   </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">3. Information Sharing and Disclosure</h5>
+              <p class="card-text">
+                We do not sell, rent, or trade your personal information to third parties. However, we may share your information with:
+
+                Service providers and partners who assist us in operating our website or providing services to you.
+                Law enforcement or regulatory agencies as required by law.       </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">6. Third-Party Links</h5>
+              <p class="card-text">
+                Our website may contain links to third-party websites. We do not have control over these websites and are not responsible for their privacy practices. Please review the privacy policies of these websites.</p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">7. Changes to This Privacy Policy</h5>
+              <p class="card-text">
+                We may update this Privacy Policy from time to time. The revised policy will be effective from the date it is published on our website.       </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">8. Your Rights</h5>
+              <p class="card-text">
+                You have the right to:
+
+                Access and update your personal information.
+                Opt out of receiving marketing communications.
+                Have your personal information edit , delete.  </p>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">9. Contact Us</h5>
+              <p class="card-text">
+                If you have any questions or concerns about this Privacy Policy, please contact us at [support@banglavillage.net].
+
+                By using our website, you consent to the practices described in this Privacy Policy. Thank you for trusting [Bangla Village] with your personal information. </p>
+            </div>
+
+            
+          </div>
+
+      </div>
+ 
+
+        <hr>
+
+       
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+{% endblock %}

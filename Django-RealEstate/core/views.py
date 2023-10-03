@@ -114,3 +114,39 @@ class ImpressumView(TemplateView):
 
 class RobotsTXTView(TemplateView):
     template_name = 'core/robots.txt'
+
+
+class policyView(TemplateView):
+    template_name = 'core/policy.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['realtors'] = Realtor.objects.order_by('-hire_date')
+        # Showcase Section Infos
+        context['title'] = _("Privacy and Policy")
+        context['subtitle'] = _("Real Estate and Consulting")
+        # SEO
+        context['page_title'] = _("Privacy and Policy")
+        context['page_description'] = _("Real estate manager."
+                                        "Our services include "
+                                        "renting, selling, buying, consulting "
+                                        "and much more.")
+        return context
+
+
+class termsView(TemplateView):
+    template_name = 'core/terms.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['realtors'] = Realtor.objects.order_by('-hire_date')
+        # Showcase Section Infos
+        context['title'] = _("Terms and Conditions")
+        context['subtitle'] = _("Real Estate and Consulting")
+        # SEO
+        context['page_title'] = _("Terms and Conditions")
+        context['page_description'] = _("Real estate manager."
+                                        "Our services include "
+                                        "renting, selling, buying, consulting "
+                                        "and much more.")
+        return context
