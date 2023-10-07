@@ -55,6 +55,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
+  background-color: rgb(229, 237, 245);
 }
 
 body {
@@ -2016,7 +2017,7 @@ textarea.form-control {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  background-color: #224eff !important;
+  background-color: #ee6b00 !important;
   color: #fff;
 
 

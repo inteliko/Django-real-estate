@@ -30,6 +30,12 @@ img {
 
 .social a {
   margin-right: 0.4rem;
+
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+  background-color: rgb(229, 237, 245);
 }
 
 #showcase {

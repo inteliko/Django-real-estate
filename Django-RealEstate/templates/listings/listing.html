@@ -95,15 +95,11 @@
             <p class="mb-2">{{ listing.description }}</p>
 
             {%if listing.protected %}
-            <small class="uppercase">
-              {{ _("This object is listed") }}
-            </small>
+            
 
             {% else %}
 
-            <small>
-              {{ _("This object is not listed") }}
-            </small>
+            
 
             {% endif %}
 
@@ -179,18 +175,11 @@
           </div>
 
 
-          <div class="col-12 px-3 my-5">
-            <div id="map" style="width:100%;height:400px;"></div>
-          </div>
+        
 
         </div>
 
-        <div>
-          <small>{{ _("Object from the ") }}
-            <span>{{ listing.created|date:"d M Y" }}</span>
-
-          </small>
-        </div>
+        
 
       </div>
 
