@@ -54,8 +54,8 @@ html {
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-  background-color: rgb(229, 237, 245);
+  display: block; 
+  
 }
 
 body {
