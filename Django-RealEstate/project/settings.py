@@ -154,9 +154,11 @@ INSTALLED_APPS = [
     'crispy_forms',
     'django.contrib.sites',
     'allauth',
+    
     'allauth.account',
     'allauth.socialaccount',
-    'allauth.socialaccount.providers.google',  # for google auth
+    'allauth.socialaccount.providers.google', 
+    # for google auth
 
 ]
 

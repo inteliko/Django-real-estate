@@ -39,7 +39,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 #showcase {
-  background: url('../img/bg3.jpeg');
+  background: url('../img/bg1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -101,7 +101,7 @@ background: #222b3460;
 }
 
 #showcase-inner {
-  background: url('../img/bg3.jpeg');
+  background: url('../img/bg1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

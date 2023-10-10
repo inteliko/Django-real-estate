@@ -75,3 +75,7 @@ class Address(models.Model):
 
     def get_listings(self):
         return self.street
+
+#===========================# gallary 
+
+
