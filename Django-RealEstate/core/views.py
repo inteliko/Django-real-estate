@@ -96,6 +96,22 @@ class PrivacyView(TemplateView):
         return context
 
 
+class Gallaryview(TemplateView):
+    template_name = 'core/gallary.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        # Showcase Section Infos
+        context['title'] = _("Gallary")
+        context['subtitle'] = _("Real-Estate")
+        # SEO
+        context['page_title'] = _("Privacy")
+        context['page_description'] = _("Real estate manager."
+                                        "This is our gallary page.")
+        return context
+
+
+
 class ImpressumView(TemplateView):
     template_name = 'core/impressum.html'
 

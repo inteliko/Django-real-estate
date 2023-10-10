@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import (IndexView, AboutView, ContactView, ImpressumView, PrivacyView, policyView, termsView,
+from .views import (IndexView, AboutView, ContactView, ImpressumView, PrivacyView, policyView, termsView, Gallaryview,
                     RobotsTXTView)
 
 urlpatterns = [
@@ -12,5 +12,6 @@ urlpatterns = [
     path('privacy', PrivacyView.as_view(), name="privacy"),
     path('policy', policyView.as_view(), name="policy"),
     path('terms', termsView.as_view(), name="terms"),
+    path('gallary', Gallaryview.as_view(), name="gallary"),
 
 ]
