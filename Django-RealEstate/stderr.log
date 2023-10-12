@@ -1142,3 +1142,547 @@ ModuleNotFoundError: No module named 'allauth.account.middleware'
 /home/vzqncawf/Django-real-estate/Django-RealEstate/project/static
 /home/vzqncawf/Django-real-estate/Django-RealEstate/project/static
 /home/vzqncawf/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2405559] Child process with pid: 2405566 was killed by signal: 15, core dumped: no
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2405559] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[2023-10-10 18:58:29 +0200] [2407340] [ERROR] django.request Internal Server Error: /en/terms
+Traceback (most recent call last):
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/terms.html
+[2023-10-10 18:58:29 +0200] [2407340] [ERROR] django.request Internal Server Error: /en/terms
+Traceback (most recent call last):
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/terms.html
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2405559] Child process with pid: 2407304 was killed by signal: 15, core dumped: no
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+[UID:2192][2405559] Child process with pid: 2407627 was killed by signal: 15, core dumped: no
+OSError: LSAPI: File error
+[UID:2192][2405559] Child process with pid: 2407623 was killed by signal: 15, core dumped: no
+[UID:2192][2405559] Child process with pid: 2407639 was killed by signal: 15, core dumped: no
+[UID:2192][2405559] Child process with pid: 2407628 was killed by signal: 15, core dumped: no
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[2023-10-10 18:59:15 +0200] [2408961] [ERROR] django.request Internal Server Error: /en/terms
+Traceback (most recent call last):
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/terms.html
+[2023-10-10 18:59:15 +0200] [2408961] [ERROR] django.request Internal Server Error: /en/terms
+Traceback (most recent call last):
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/terms.html
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2300550] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2192][2829462] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/virtualenv/Django-real-estate/Django-RealEstate/3.9/lib/python3.9/site-packages/django/views/generic/list.py:91: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'listings.models.Listing'> QuerySet.
+  return self.paginator_class(
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][2943001] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2192][742072] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
+/home/ychfmcgt/Django-real-estate/Django-RealEstate/project/static
